@@ -1,0 +1,24 @@
+.active{
+    border-radius:0.5rem;
+    transition: all 75ms linear;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right,#8f79ad,#e0b1cb );
+    color: white;
+}
+
+.inactive{
+       border-radius:0.5rem;
+    transition: all 75ms linear;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E1E8EF;
+}
+
+.logo{
+      background: linear-gradient(to right,#9f86c0,#e0b1cb );
+}
