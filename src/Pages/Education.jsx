@@ -10,7 +10,7 @@ import {
   faGraduationCap,
   faBriefcase,
 } from "@fortawesome/free-solid-svg-icons";
-import html from ""
+
 const imageButton = [
   {
     id: 1,
