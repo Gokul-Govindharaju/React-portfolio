@@ -11,7 +11,7 @@ import {
   faBriefcase,
 } from "@fortawesome/free-solid-svg-icons";
 import html from ""
-const imageButtons = [
+const imageButton = [
   {
     id: 1,
     imageSrc: "../assets/img/HC.png",
@@ -92,7 +92,7 @@ const Education = () => {
         </div>
         <div className="flex flex-wrap justify-center items-center p-5 custom-1170:p-3 custom-1147:p-3">
           <motion.div className="grid grid-cols-2 gap-4 lg:grid-cols-4 "  variants={fadeIn("down","tween",  0.06, 1)}>
-            {imageButtons.map((button) => (
+            {imageButton.map((button) => (
               <ViewButton
                 key={button.id}
                 onClick={() => handleViewClick(button.imageUrl)}
