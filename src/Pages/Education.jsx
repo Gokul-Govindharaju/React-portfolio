@@ -10,27 +10,34 @@ import {
   faGraduationCap,
   faBriefcase,
 } from "@fortawesome/free-solid-svg-icons";
-
+import html from '/src/assets/img/HC.png';
+import uc1 from '/src/assets/img/UC-1.jpg';
+import js from "/src/assets/img/JS.png";
+import uc2 from "/src/assets/img/UC-2.jpg";
+import react from "/src/assets/img/React.png";
+import uc3 from "/src/assets/img/UC-3.jpg";
+import node from "/src/assets/img/node.png";
+import uc4 from "/src/assets/img/UC-4.jpg";
 const imageButton = [
   {
     id: 1,
-    imageSrc: "../assets/img/HC.png",
-    imageUrl: "../assets/img/UC-1.jpg",
+    imageSrc: html,
+    imageUrl: uc1,
   },
   {
     id: 2,
-    imageSrc: "../assets/img/JS.png",
-    imageUrl: "../assets/img/UC-2.jpg",
+    imageSrc: js,
+    imageUrl: uc2,
   },
  {
     id: 3,
-    imageSrc: "../assets/img/React.png",
-    imageUrl: "../assets/img/UC-3.jpg",
+    imageSrc: react,
+    imageUrl: uc3,
   },
  {
     id: 4,
-    imageSrc: "../assets/img/node.png",
-    imageUrl: "../assets/img/UC-4.jpg",
+    imageSrc: node,
+    imageUrl: uc4,
   },
 ];
 
