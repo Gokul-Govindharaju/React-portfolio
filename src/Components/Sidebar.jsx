@@ -1,4 +1,5 @@
 import React from "react";
+import resume from '../../public/Gokul resume2024.pdf';
 import Profile from "../assets/img/file.png";
 import { fadeIn, textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
@@ -99,8 +100,9 @@ const Sidebar = () => {
                 <div className="p-3 border-t mx-8 mt-2">
                   <a
                     className=" block mx-auto rounded-full linear-grad-text bg-gradient-to-r from-slate-500 to-pink-300  hover:shadow-lg font-semibold text-white px-6 py-2 flex items-center justify-center gap-x-2"
-                    href="src/assets/img/Gokul resume2024.pdf"
-                    download
+                    href={resume}
+                    download="Gokul resume2024.pdf"
+                    
                   >
                     <MdOutlineFileDownload className="" />
                     <span>Download CV</span>
