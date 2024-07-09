@@ -27,7 +27,7 @@ const Model = ({ isOpen, onClose, certificateUrl }) => {
         onClick={onClose}
       >
         <motion.div
-          className="bg-white rounded-lg p-4 max-w-lg md:max-w-2xl  lg:max-w-3xl w-full"
+          className="bg-white rounded-lg p-4 max-w-md md:max-w-2xl  lg:max-w-3xl w-full"
           variants={modalVariants}
           initial="hidden"
           animate="visible"
@@ -40,6 +40,7 @@ const Model = ({ isOpen, onClose, certificateUrl }) => {
             src={certificateUrl}
             alt="Udemy Certificate"
             className="w-full"
+            loading="lazy"
           />
         </motion.div>
       </motion.div>

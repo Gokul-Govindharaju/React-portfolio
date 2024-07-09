@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="flex  justify-center items-center">
+        <div className="flex  justify-center items-center p-4">
           <p>Copyright &copy; {currentYear} Gokul Govindharaju</p>
         </div>
       </footer>

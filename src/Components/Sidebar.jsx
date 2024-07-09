@@ -29,6 +29,7 @@ const Sidebar = () => {
                   src={Profile}
                   alt="Profile"
                   className="absolute object-cover top-0 left-1/2 transform -translate-x-1/2 -mt-8 w-36 h-36  rounded-lg bg-zinc-300 scale-150"
+                  loading="lazy"
                 />
                 <div className="flex flex-col items-center mt-32">
                   <h2 className="text-lg font-bold text-black">

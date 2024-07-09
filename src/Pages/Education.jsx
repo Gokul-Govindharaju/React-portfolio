@@ -54,7 +54,7 @@ const Education = () => {
   };
   return (
     <>
-      <section id="resume">
+      <section id="resume" className="h-full" >
         <motion.div className="flex items-center gap-8  p-8 custom-1147:p-6 md:p-4" variants={textVariant()}>
           <h1 className="text-3xl font-semibold font-heading text-nowrap " >
             My Resume

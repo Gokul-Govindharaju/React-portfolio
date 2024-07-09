@@ -23,7 +23,7 @@ const router = createBrowserRouter([
 
 function App() {
   const [loading, setLoading] = useState(true);
-  
+
   useEffect(() => {
     // Simulate async data loading
     setTimeout(() => {
@@ -31,11 +31,20 @@ function App() {
     }, 2500); // Adjust this timeout as per your application's needs
   }, []);
 
-  return <>{loading ? <Loader /> :  <motion.div
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 0.5, ease: "easeInOut" }}
-  ><RouterProvider router={router} />
-   </motion.div>}</>;
+  return (
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+        >
+          <RouterProvider router={router} />
+        </motion.div>
+      )}
+    </>
+  );
 }
 export default App;

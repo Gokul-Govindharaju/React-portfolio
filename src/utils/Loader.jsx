@@ -4,20 +4,6 @@ import Image from "../assets/img/logog.png";
 const Loader = () => {
   const [progress, setProgress] = useState(0);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setProgress((prev) => {
-  //       if (prev < 100) {
-  //         return prev + 1;
-  //       } else {
-  //         clearInterval(interval);
-  //         return prev;
-  //       }
-  //     });
-  //   }, 30); // Adjust the speed of progress as needed
-
-  //   return () => clearInterval(interval);
-  // }, []);
 
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-r from-slate-500 to-pink-300">
